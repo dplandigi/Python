@@ -19,9 +19,10 @@ Clarity and Conciseness: Use plain language and avoid jargon to ensure everyone 
 Relevant Information: Include details such as the function's purpose, parameters (arguments), return values, and any potential exceptions or side effects.
 Style Guidelines: Adhere to the recommended coding style for your programming language or project. Consistency improves readability.
 Docstring Formats: Popular docstring formats include Google Style, NumPy Style, and Sphinx. Choose a format and stick to it.
+
 Example Docstring (Python):
 
-Python
+\\\
 def greet(name):
   """Greets a person by name.
 
@@ -31,9 +32,9 @@ def greet(name):
   Returns:
     A greeting message (str).
   """
-
+  
   return "Hello, " + name + "!"
-Use code with caution.
+///
 
 Tools for Working with Docstrings:
 
@@ -44,8 +45,3 @@ Conclusion
 
 Docstrings are an essential tool for any developer writing clean, maintainable, and collaborative code. 
 By following best practices and utilizing the right tools, you can create high-quality docstrings that benefit both you and your team.
-
-Additional Resources:
-Python Docstring Conventions: https://peps.python.org/pep-0257/
-NumPy Docstring Conventions: https://numpydoc.readthedocs.io/en/latest/format.html
-Sphinx Documentation Generator: https://docs.readthedocs.io/
